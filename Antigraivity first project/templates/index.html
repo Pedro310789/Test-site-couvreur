@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Rois du Toit - Expert Couvreur à Bruxelles</title>
+    <meta name="description"
+        content="Les Rois du Toit : Votre expert en toiture, rénovation, isolation et gouttières à Bruxelles. Devis gratuit.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Les Rois du Toit</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">Nos Services</a></li>
+                    <li><a href="#about" class="nav-link">À Propos</a></li>
+                    <li><a href="#why-us" class="nav-link">Pourquoi Nous</a></li>
+                    <li><a href="#team" class="nav-link">Équipe</a></li>
+                    <li><a href="#contact" class="nav-link btn btn-primary">Devis Gratuit</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1>
+                    {{ content.hero.title }}
+                </h1>
+                <p>
+                    {{ content.hero.subtitle }}
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        {{ content.hero.buttonText }}
+                    </a>
+                    <a href="#services" class="btn btn-secondary">Nos services</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section-title">
+                    {{ content.services.title }}
+                </h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon">🏠</div>
+                        <h3>
+                            {{ content.services.s1_title }}
+                        </h3>
+                        <p>
+                            {{ content.services.s1_desc }}
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">🌡️</div>
+                        <h3>
+                            {{ content.services.s2_title }}
+                        </h3>
+                        <p>
+                            {{ content.services.s2_desc }}
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">💧</div>
+                        <h3>
+                            {{ content.services.s3_title }}
+                        </h3>
+                        <p>
+                            {{ content.services.s3_desc }}
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon">🔨</div>
+                        <h3>
+                            {{ content.services.s4_title }}
+                        </h3>
+                        <p>
+                            {{ content.services.s4_desc }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container about-content">
+                <div class="about-text">
+                    <h2 class="section-title">
+                        {{ content.about.title }}
+                    </h2>
+                    <p><strong>
+                            {{ content.about.text1 }}
+                        </strong></p>
+                    <p>
+                        {{ content.about.text2 }}
+                    </p>
+                </div>
+                <div class="about-image">
+                    <!-- Placeholder for About Image -->
+                    <div class="img-placeholder">Image Équipe/Chantier</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="section why-us">
+            <div class="container">
+                <h2 class="section-title">Pourquoi Nous Choisir ?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>Expertise Certifiée</h3>
+                        <p>Nos couvreurs sont qualifiés et formés aux dernières techniques.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Garantie Décennale</h3>
+                        <p>Tous nos travaux sont couverts par une garantie pour votre tranquillité d'esprit.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Devis Gratuit</h3>
+                        <p>Estimation précise et transparente sans engagement de votre part.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Intervention Rapide</h3>
+                        <p>Nous intervenons rapidement en cas d'urgence ou de fuite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section team">
+            <div class="container">
+                <h2 class="section-title">Notre Équipe</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-img">👤</div>
+                        <h3>Jean Dupont</h3>
+                        <p>Chef de Chantier</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-img">👤</div>
+                        <h3>Marc Peeters</h3>
+                        <p>Expert Zingueur</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-img">👤</div>
+                        <h3>Sophie Martin</h3>
+                        <p>Service Client</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Contactez-nous</h2>
+                    <p>Prêt à démarrer votre projet ? Une question ? N'hésitez pas à nous contacter.</p>
+                    <ul class="info-list">
+                        <li>📍 {{ content.contact.address }}
+                        </li>
+                        <li>📞 {{ content.contact.phone }}
+                        </li>
+                        <li>✉️ {{ content.contact.email }}
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Les Rois du Toit</h3>
+                <p>Votre expert toiture à Bruxelles.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">LI</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Les Rois du Toit. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

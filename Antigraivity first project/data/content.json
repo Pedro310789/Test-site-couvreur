@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "Votre Expert Couvreur à Bruxelles",
+    "subtitle": "Rénovation, isolation et entretien de toiture par des professionnels expérimentés.",
+    "buttonText": "Demander un devis"
+  },
+  "services": {
+    "title": "Nos services iugiyrtdryedui",
+    "s1_title": "Rénovation de Toiture",
+    "s1_desc": "Remise à neuf complète ou partielle de votre toiture pour une protection durable.",
+    "s2_title": "Isolation",
+    "s2_desc": "Isolation thermique et acoustique performante pour réduire vos factures d'énergie.",
+    "s3_title": "Gouttières & Zinguerie",
+    "s3_desc": "Installation et réparation de systèmes d'évacuation des eaux pluviales.",
+    "s4_title": "Entretien & Réparation",
+    "s4_desc": "Démoussage, nettoyage et réparations urgentes pour prolonger la vie de votre toit."
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "text1": "Depuis plus de 15 ans, Les Rois du Toit s'engagent à fournir des services de couverture de haute qualité à Bruxelles et ses environs. Notre passion pour le métier et notre souci du détail font de nous le partenaire idéal pour tous vos projets de toiture.",
+    "text2": "Nous sommes une entreprise locale, fière de contribuer à la préservation du patrimoine bâti bruxellois."
+  },
+  "contact": {
+    "address": "123 Avenue de la Toiture, 1000 Bruxelles",
+    "phone": "+32 2 123 45 67",
+    "email": "info@lesroisdutoit.be"
+  }
+}
